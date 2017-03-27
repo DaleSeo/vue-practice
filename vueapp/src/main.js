@@ -4,8 +4,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import App from './App'
-import Test from './components/test'
-import Users from './components/users'
+import Test from './components/Test'
+import Users from './components/Users'
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
