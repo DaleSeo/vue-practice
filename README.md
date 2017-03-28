@@ -12,3 +12,6 @@
 - Vue js Customer Manager App Frontend]
   - https://youtu.be/IUgstalu6zo)
   - [customers](customers)
+- Vue.js 2 & Firebase - Building Real Time Single Page Web Applications
+  - https://youtu.be/we4zuQIXmnw
+  - [vuejsfirebase](vuejsfirebase)
