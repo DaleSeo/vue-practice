@@ -15,3 +15,6 @@
 - Vue.js 2 & Firebase - Building Real Time Single Page Web Applications
   - https://youtu.be/we4zuQIXmnw
   - [vuejsfirebase](vuejsfirebase)
+- Vue.js 2 & Vue-Resource - Real-World Application With External API Access
+  - [vuenews](vuenews)
+  - https://youtu.be/p-7Zi9xYt2M
