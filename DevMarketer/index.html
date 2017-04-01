@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vue.JS Tutorial</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>{{message}}</h1>
+      <input type="text" v-model="message" />
+      <p>
+        Visit: <a :href="url">{{cleanUrl}}</a>
+      </p>
+      <input type="text" class="form-control" v-model="url" />
+      <button class="btn btn-primary" @click="humanizeUrl">Humanize Me!</button>
+      <h2>Count: {{count}}</h2>
+      <button class="btn btn-primary" @click="countUp">Count Up</button>
+      <button class="btn btn-primary" @click="countDown">Count Down</button>
+      <ul>
+        <li style="list-style-type:none;" v-for="todo in todos">{{todo.id}}) {{todo.text}}</li>
+      </ul>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue World',
+          count: 0,
+          url: '',
+          cleanUrl: '',
+          todos: [
+            { text: 'Learn Vue', id: 4 },
+            { text: 'Like the video', id: 2 },
+            { text: 'Subscribe to DevMarketer', id: 3 }
+          ]
+        },
+        methods: {
+          countUp: function () {
+            this.count++
+          },
+          countDown: function () {
+            this.count--
+          },
+          humanizeUrl: function () {
+            this.cleanUrl = this.url.replace(/^https?:\/\//, '').replace(/\/$/, '')
+          }
+        }
+      })
+    </script>
+  </body>
+
+</html>
