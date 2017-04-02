@@ -18,3 +18,7 @@
 - Vue.js 2 & Vue-Resource - Real-World Application With External API Access
   - [vuenews](vuenews)
   - https://youtu.be/p-7Zi9xYt2M
+- Vue.js Fundamentals
+  - [DevMarketer](DevMarketer)
+  - https://github.com/DevMarketer/VueJS_Tutorial
+  - https://www.youtube.com/playlist?list=PLwAKR305CRO_1yAao-8aZiQnBqJeyng4O
