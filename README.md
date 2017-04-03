@@ -22,3 +22,7 @@
   - [DevMarketer](DevMarketer)
   - https://github.com/DevMarketer/VueJS_Tutorial
   - https://www.youtube.com/playlist?list=PLwAKR305CRO_1yAao-8aZiQnBqJeyng4O
+- Build a To-Do App with Vue.js 2
+  - [todo-app](todo-app)
+  - https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2  
+  - https://github.com/scotch-io/vue-todo
