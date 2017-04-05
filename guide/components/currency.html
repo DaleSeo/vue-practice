@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js Practice</title>
+  </head>
+  <body>
+
+    <div id="app">
+      <currency-input v-model="price"></currency-input>
+    </div>
+
+  </body>
+</html>
+
+<script src="https://unpkg.com/vue"></script>
+<script>
+  Vue.component('currency-input', {
+    template: `
+      <span>
+        $
+        <input
+          ref="input"
+          :value="value"
+          @input="updateValue($event.target.value)"
+        />
+      </span>
+    `,
+    props: ['value'],
+    methods: {
+      updateValue (value) {
+        let formattedValue = value
+          .trim()
+          .slice(0, value.indexOf('.') + 3)
+        if (formattedValue !== value) {
+          this.$refs.input.value = formattedValue
+        }
+        this.$emit('input', Number(formattedValue))
+      }
+    }
+  })
+
+  new Vue({
+    el: '#app',
+    data: {
+      price: ''
+    }
+  })
+</script>

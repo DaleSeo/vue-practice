@@ -1,11 +1,15 @@
 # Vue.js Practice
 
-- Introduction
-  - https://kr.vuejs.org/v2/guide/index.html
-  - [introduction](introduction)
-- List Rendering
-  - https://kr.vuejs.org/v2/guide/list.html
-  - [list-rendering](list-rendering)
+- Guide
+  - Introduction
+    - https://kr.vuejs.org/v2/guide/index.html
+    - [introduction](guide/introduction)
+  - List Rendering
+    - https://kr.vuejs.org/v2/guide/list.html
+    - [list-rendering](guide/list-rendering)
+  - Components
+    - https://kr.vuejs.org/v2/guide/components.html
+    - [components](guide/components)
 - Vue.js 2.0 In 60 Minutes
   - https://youtu.be/z6hQqgvGI4Y
   - [vueapp](vueapp)
