@@ -10,6 +10,9 @@
   - Components
     - https://kr.vuejs.org/v2/guide/components.html
     - [components](guide/components)
+- Vue Loader
+  - [webpack-simple](webpack-simple)
+  - https://vue-loader.vuejs.org
 - Vue.js 2.0 In 60 Minutes
   - https://youtu.be/z6hQqgvGI4Y
   - [vueapp](vueapp)
