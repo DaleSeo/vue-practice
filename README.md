@@ -33,3 +33,6 @@
   - [todo-app](todo-app)
   - https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2  
   - https://github.com/scotch-io/vue-todo
+- Vuefire Todo
+  - [vuefire](vuefire/todo.html)
+  - https://github.com/vuejs/vuefire/blob/master/examples/todo-app/index.html
