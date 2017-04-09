@@ -14,7 +14,7 @@
       <ul>
         <li v-for="todo in reversedTodos">
           <input :value="todo.title" @input="updateTodo(todo, $event.target.value)"/>
-          <button @click="removeTodo(todo)">&Cross;</button>
+          <button @click="removeTodo(todo)">&times;</button>
         </li>
       </ul>
     </div>
